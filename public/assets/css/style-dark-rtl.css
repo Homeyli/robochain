@@ -54,9 +54,9 @@
  *********************************
  *     01.  General RTL          *
  ================================*/
-@import url("https://fonts.googleapis.com/css?family=Nunito:300,400,600,700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=yekan:300,400,600,700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Livvic:wght@400;500;600;700&display=swap");
-@import url("https://fonts.googleapis.com/css?family=Nunito:300,400,600,700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=yekan:300,400,600,700&display=swap");
 @media (min-width: 1400px) {
   .container {
     max-width: 1140px !important;
@@ -1893,14 +1893,14 @@ button:not(:disabled) {
 }
 
 body {
-  font-family: "Nunito", sans-serif;
+  font-family: "yekan", sans-serif;
   overflow-x: hidden !important;
   font-size: 16px;
   color: #161c2d;
 }
 
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
-  font-family: "Nunito", sans-serif;
+  font-family: "yekan", sans-serif;
   line-height: 1.5;
   font-weight: 600;
 }
@@ -2373,7 +2373,7 @@ p {
   text-transform: uppercase;
   -webkit-transition: all 0.5s;
   transition: all 0.5s;
-  font-family: "Nunito", sans-serif;
+  font-family: "yekan", sans-serif;
   padding-left: 15px;
   padding-right: 15px;
 }

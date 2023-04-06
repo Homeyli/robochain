@@ -5,12 +5,12 @@
                 <div class="title-heading mt-4">
                     <div class="alert alert-white alert-pills shadow" role="alert">
                         <span class="badge rounded-pill bg-danger me-1">v3.0.0</span>
-                        <span class="content"> Build <span class="text-primary">anything</span> you want - Landrick.</span>
+                        <span class="content"> قدرت گرفته از <a href="https://www.freqtrade.io/en/stable/" target="_blank"><span class="text-primary">freqtrade</span></a>  روبوچین.</span>
                     </div>
-                    <h1 class="heading mb-3">Leading Digital Business For <span class="text-primary typewrite" data-period="2000" data-type='[ "Agency", "Software", "Technology", "Studio", "Webapps" ]'> <span class="wrap"></span> </span> Solution</h1>
+                    <h1 class="heading mb-3">ایجاد ربات های تریدر ارز دیجیتال<span class="text-primary typewrite" data-period="2000" data-type='[ "اسپات", "مارجین", "فیوچرز", "و در تمام صرافی های معتبر جهان"]'> </h1>
                     <p class="para-desc text-muted">Launch your campaign and benefit from our expertise on designing and managing conversion centered bootstrap v5 html page.</p>
                     <div class="mt-4">
-                        <a href="javascript:void(0)" class="btn btn-outline-primary rounded"><i class="uil uil-store"></i> Make Your Shop</a>
+                        <a href="javascript:void(0)" class="btn btn-outline-primary rounded"><i class="feather feather-phone"></i>  همین الان تماس بگیرید 09120186223</a>
                     </div>
                 </div>
             </div><!--end col-->

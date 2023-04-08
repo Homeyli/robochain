@@ -14,20 +14,20 @@
         <!-- favicon -->
         <link rel="shortcut icon" href="images/favicon.ico">
         <!-- Bootstrap -->
-        <link href="{{ secure_asset('assets/fonts/yekan/font.css') }}" rel="stylesheet" type="text/css" />
-        <link href="{{ secure_asset('assets/css/bootstrap.min.css') }}" rel="stylesheet" type="text/css" />
+        <link href="{{ asset('assets/fonts/yekan/font.css') }}" rel="stylesheet" type="text/css" />
+        <link href="{{ asset('assets/css/bootstrap.min.css') }}" rel="stylesheet" type="text/css" />
         <!-- tobii css -->
-        <link href="{{ secure_asset('assets/css/tobii.min.css') }}" rel="stylesheet" type="text/css" />
+        <link href="{{ asset('assets/css/tobii.min.css') }}" rel="stylesheet" type="text/css" />
         <!-- Icons -->
-        <link href="{{ secure_asset('assets/css/materialdesignicons.min.css') }}" rel="stylesheet" type="text/css" />
+        <link href="{{ asset('assets/css/materialdesignicons.min.css') }}" rel="stylesheet" type="text/css" />
         <link rel="stylesheet" href="https://unicons.iconscout.com/release/v3.0.6/css/line.css">
         <!-- Slider -->               
-        <link rel="stylesheet" href="{{ secure_asset('assets/css/tiny-slider.css') }}"/> 
+        <link rel="stylesheet" href="{{ asset('assets/css/tiny-slider.css') }}"/> 
         <!-- Animation -->
-        <link href="{{ secure_asset('assets/css/aos.css') }}" rel="stylesheet" type="text/css" />
+        <link href="{{ asset('assets/css/aos.css') }}" rel="stylesheet" type="text/css" />
         <!-- Main Css -->
-        <link href="{{ secure_asset('assets/css/style-rtl.css') }}" rel="stylesheet" type="text/css" id="theme-opt" />
-        <link href="{{ secure_asset('assets/css/colors/default.css') }}" rel="stylesheet" id="color-opt">
+        <link href="{{ asset('assets/css/style-rtl.css') }}" rel="stylesheet" type="text/css" id="theme-opt" />
+        <link href="{{ asset('assets/css/colors/default.css') }}" rel="stylesheet" id="color-opt">
     </head>
 
     <body data-bs-spy="scroll" data-bs-target="#navbar-navlist" data-bs-offset="20">
@@ -113,18 +113,18 @@
         
 
         <!-- javascript -->
-        <script src="{{ secure_asset('assets/js/bootstrap.bundle.min.js') }}"></script>
-        <script src="{{ secure_asset('assets/js/gumshoe.polyfills.min.js') }}"></script>
+        <script src="{{ asset('assets/js/bootstrap.bundle.min.js') }}"></script>
+        <script src="{{ asset('assets/js/gumshoe.polyfills.min.js') }}"></script>
         <!-- SLIDER -->
-        <script src="{{ secure_asset('assets/js/tiny-slider.js') }}"></script>
+        <script src="{{ asset('assets/js/tiny-slider.js') }}"></script>
         <!-- tobii js -->
-        <script src="{{ secure_asset('assets/js/tobii.min.js') }}"></script>
+        <script src="{{ asset('assets/js/tobii.min.js') }}"></script>
         <!-- Animation -->
-        <script src="{{ secure_asset('assets/js/aos.js') }}"></script>
+        <script src="{{ asset('assets/js/aos.js') }}"></script>
         <!-- Icons -->
-        <script src="{{ secure_asset('assets/js/feather.min.js') }}"></script>
+        <script src="{{ asset('assets/js/feather.min.js') }}"></script>
         <!-- Main Js -->
-        <script src="{{ secure_asset('assets/js/plugins.init.js') }}"></script><!--Note: All init js like tiny slider, counter, countdown, maintenance, lightbox, gallery, swiper slider, aos animation etc.-->
-        <script src="{{ secure_asset('assets/js/app.js') }}"></script><!--Note: All important javascript like page loader, menu, sticky menu, menu-toggler, one page menu etc. -->
+        <script src="{{ asset('assets/js/plugins.init.js') }}"></script><!--Note: All init js like tiny slider, counter, countdown, maintenance, lightbox, gallery, swiper slider, aos animation etc.-->
+        <script src="{{ asset('assets/js/app.js') }}"></script><!--Note: All important javascript like page loader, menu, sticky menu, menu-toggler, one page menu etc. -->
     </body>
 </html>

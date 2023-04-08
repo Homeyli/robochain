@@ -8,9 +8,9 @@
                         <span class="content"> قدرت گرفته از <a href="https://www.freqtrade.io/en/stable/" target="_blank"><span class="text-primary">freqtrade</span></a>  روبوچین.</span>
                     </div>
                     <h1 class="heading mb-3">ایجاد ربات های تریدر ارز دیجیتال<span class="text-primary typewrite" data-period="2000" data-type='[ "اسپات", "مارجین", "فیوچرز", "و در تمام صرافی های معتبر جهان"]'> </h1>
-                    <p class="para-desc text-muted">Launch your campaign and benefit from our expertise on designing and managing conversion centered bootstrap v5 html page.</p>
+                    <p class="para-desc text-muted" style="text-align: justify">{{ __('landing.desc') }}</p>
                     <div class="mt-4">
-                        <a href="javascript:void(0)" class="btn btn-outline-primary rounded"><i class="feather feather-phone"></i>  همین الان تماس بگیرید 09120186223</a>
+                        <a href="javascript:void(0)" class="btn btn-outline-primary rounded"><i class="feather feather-phone"></i>همین الان تماس بگیرید</a>
                     </div>
                 </div>
             </div><!--end col-->

@@ -3,16 +3,16 @@
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
     <head>
         <meta charset="utf-8" />
-        <title>Landrick - Saas & Software Landing Page Template</title>
+        <title>روبوچین - ربات تریدر ارزهای دیجیتال - سرویسی از استک تیم</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="description" content="Premium Bootstrap 5 Landing Page Template" />
-        <meta name="keywords" content="Saas, Software, multi-uses, HTML, Clean, Modern" />
+        <meta name="description" content="روبوچین به شما کمک میکنه که استراتژی خودتون رو تبدیل به ربات تریدر اتوماتیک کنید" />
+        <meta name="keywords" content="ربات ارز های دیجیتال, ربات تریدر,ربات پایتون, ربات معامله گر, روبوچین" />
         <meta name="author" content="Stackteam" />
         <meta name="email" content="stackteam.official@gmail.com" />
-        <meta name="website" content="https://robochain.info" />
-        <meta name="Version" content="v1.0.0" />
-        <!-- favicon -->
-        <link rel="shortcut icon" href="images/favicon.ico">
+        <meta name="website" content="https://robochain.info/" />
+        <meta name="Version" content="v3.0.0" />
+        <!-- Favicon -->
+        <link rel="icon" type="image/png" sizes="56x56" href="https://stackteam.org/assets/images/fav-icon/icon.png">
         <!-- Bootstrap -->
         <link href="{{ asset('assets/fonts/yekan/font.css') }}" rel="stylesheet" type="text/css" />
         <link href="{{ asset('assets/css/bootstrap.min.css') }}" rel="stylesheet" type="text/css" />

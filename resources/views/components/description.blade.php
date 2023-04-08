@@ -2,7 +2,7 @@
     <div class="container mt-100 mt-60">
         <div class="row align-items-center">
             <div class="col-lg-5 col-md-6">
-                <img src="images/company/about2.png" class="img-fluid" alt="">
+                <img src="{{ asset ('assets/images/company/about2.png') }}" class="img-fluid" alt="">
             </div><!--end col-->
 
             <div class="col-lg-7 col-md-6 mt-4 mt-lg-0 pt- pt-lg-0">

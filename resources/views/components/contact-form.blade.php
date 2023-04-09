@@ -16,7 +16,7 @@
                         </div><!--end col-->
                         <div class="col-lg-6">
                             <div class="mb-3">
-                                <label class="form-label">Your Email <span class="text-danger">*</span></label>
+                                <label class="form-label">Your Phone <span class="text-danger">*</span></label>
                                 <div class="form-icon position-relative">
                                     <i data-feather="mail" class="fea icon-sm icons"></i>
                                     <input name="email" id="email2" type="email" class="form-control ps-5" placeholder="Your email :">

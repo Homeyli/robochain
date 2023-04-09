@@ -11,27 +11,27 @@
         
         <div class="row justify-content-center">
             <div class="col-lg-2 col-md-2 col-6 text-center mt-4 pt-2">
-                <img src="{{  asset('assets/images/client/amazon.svg') }}" class="avatar avatar-ex-sm" alt="">
+                <img src="{{  asset('assets/images/broker/Binance.svg') }}" class="avatar avatar-ex-sm" alt="">
             </div><!--end col-->
 
             <div class="col-lg-2 col-md-2 col-6 text-center mt-4 pt-2">
-                <img src="{{  asset('assets/images/client/google.svg') }}" class="avatar avatar-ex-sm" alt="">
+                <img src="{{  asset('assets/images/broker/bisq.svg') }}" class="avatar avatar-ex-sm" alt="">
             </div><!--end col-->
             
             <div class="col-lg-2 col-md-2 col-6 text-center mt-4 pt-2">
-                <img src="{{  asset('assets/images/client/lenovo.svg') }}" class="avatar avatar-ex-sm" alt="">
+                <img src="{{  asset('assets/images/broker/Bybit.svg') }}" class="avatar avatar-ex-sm" alt="">
             </div><!--end col-->
             
             <div class="col-lg-2 col-md-2 col-6 text-center mt-4 pt-2">
-                <img src="{{  asset('assets/images/client/paypal.svg') }}" class="avatar avatar-ex-sm" alt="">
+                <img src="{{  asset('assets/images/broker/Coinbase.svg') }}" class="avatar avatar-ex-sm" alt="">
             </div><!--end col-->
             
             <div class="col-lg-2 col-md-2 col-6 text-center mt-4 pt-2">
-                <img src="{{  asset('assets/images/client/shopify.svg') }}" class="avatar avatar-ex-sm" alt="">
+                <img src="{{  asset('assets/images/broker/kraken.svg') }}" class="avatar avatar-ex-sm" alt="">
             </div><!--end col-->
             
             <div class="col-lg-2 col-md-2 col-6 text-center mt-4 pt-2">
-                <img src="{{  asset('assets/images/client/spotify.svg') }}" class="avatar avatar-ex-sm" alt="">
+                <img src="{{  asset('assets/images/broker/Kucoin.svg') }}" class="avatar avatar-ex-sm" alt="">
             </div><!--end col-->
         </div><!--end row-->
     </div><!--end container-->

@@ -6165,3 +6165,8 @@ dd {
   }
 }
 /*# sourceMappingURL=style-rtl.css.map */
+
+/* zare */
+.avatar.avatar-ex-sm {
+  max-height: 50px;
+}

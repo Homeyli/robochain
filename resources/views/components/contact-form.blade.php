@@ -21,8 +21,8 @@
                                 <label class="form-label">شماره موبایل <span class="text-danger">*</span></label>
                                 <div class="form-icon position-relative">
                                     <i data-feather="phone" class="fea icon-sm icons"></i>
-                                    <input name="mobile" id="mobile" type="number" class="form-control ps-5"
-                                        placeholder="09120186223">
+                                    <input name="mobile" id="mobile" type="text" class="form-control ps-5"
+                                        placeholder="">
                                 </div>
                             </div>
                         </div>

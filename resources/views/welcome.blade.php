@@ -133,7 +133,6 @@
                 $(".send").click(function(event) {
                     event.preventDefault();
                 
-        
                     // get Data
                     var fullname = $('#fullname').val();
                     var mobile = $('#mobile').val();
@@ -147,7 +146,7 @@
                         method: "POST",
                         success: function(data){
                             //$('.message').html(data.result);
-                            alert (data);
+                            console.log (data);
                         }
                     });
 

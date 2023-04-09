@@ -64,6 +64,7 @@
     $(document).ready(function() {
         $("#submit").click(function(event) {
             event.preventDefault();
+            event.stopPropagation();
             // alert('okkkkk');
 
             // get Data
@@ -73,17 +74,17 @@
 
             console.log("name: " + name + " phone: " + phone + " comments: " + comments);
             
-            $.ajax({
-                url: {{route('comments')}},
-                type: 'POST',
-                data: {'name': name, 'phone': phone, 'comments': comments},
-                success: function(response) {
-                    alert(response.status);
-                },
-                error: function() {
-                    alert("error");
-                }
-            });
+            // $.ajax({
+            //     url: {{route('comments')}},
+            //     type: 'POST',
+            //     data: {'name': name, 'phone': phone, 'comments': comments},
+            //     success: function(response) {
+            //         alert(response.status);
+            //     },
+            //     error: function() {
+            //         alert("error");
+            //     }
+            // });
         });
     });
 </script>

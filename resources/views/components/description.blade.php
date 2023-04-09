@@ -19,11 +19,6 @@
                         <li class="mb-0"><span class="text-primary h5 me-2"><i class="uil uil-check-circle align-middle"></i></span>Multiple Layouts</li>
                         <li class="mb-0"><span class="text-primary h5 me-2"><i class="uil uil-check-circle align-middle"></i></span>Suits Your Style</li>
                     </ul>
-
-                    <div class="mt-3">
-                        <a href="https://1.envato.market/4n73n" target="_blank" class="btn btn-primary m-1">Read More <i class="uil uil-angle-right-b align-middle"></i></a>
-                        <a href="#!" data-type="youtube" data-id="yba7hPeTSjk" class="btn btn-icon btn-pills btn-primary m-1 lightbox"><i data-feather="video" class="icons"></i></a><span class="fw-bold text-uppercase small align-middle ms-1">Watch Now</span>
-                    </div>
                 </div>
             </div>
         </div><!--end row-->

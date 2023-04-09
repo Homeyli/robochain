@@ -81,7 +81,7 @@
         <x-brokers></x-brokers>
         <x-description></x-description>
         <x-contact></x-contact>
-       
+
         <!-- Footer Start -->
         <footer class="footer footer-bar">
             <div class="container text-center">
@@ -126,5 +126,36 @@
         <!-- Main Js -->
         <script src="{{ asset('assets/js/plugins.init.js') }}"></script><!--Note: All init js like tiny slider, counter, countdown, maintenance, lightbox, gallery, swiper slider, aos animation etc.-->
         <script src="{{ asset('assets/js/app.js') }}"></script><!--Note: All important javascript like page loader, menu, sticky menu, menu-toggler, one page menu etc. -->
+        
+        <script src="{{ asset('assets/js/jquery.min.js') }}"></script>
+        <script>
+            $(document).ready(function() {
+                $(".send").click(function(event) {
+                    event.preventDefault();
+                
+        
+                    // get Data
+                    var fullname = $('#fullname').val();
+                    var mobile = $('#mobile').val();
+                    var comment = $('#comment').val();
+        
+                    console.log("name: " + fullname + " phone: " + mobile + " comment: " + comment);
+                    
+                    $.ajax({
+                        url:"{{ route('store.comment') }}",
+                        data: { 'fullname' : fullname,'mobile' : mobile,'comment' : comment},
+                        method: "POST",
+                        success: function(data){
+                            //$('.message').html(data.result);
+                            alert (data);
+                        }
+                    });
+
+
+                });
+            });
+        </script>
+        
+
     </body>
 </html>

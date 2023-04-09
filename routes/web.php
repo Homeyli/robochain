@@ -14,4 +14,6 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/',[CommentController::class, 'store'])->name('comments');
+Route::get('/',function() {
+    return view('welcome');
+});

@@ -11,6 +11,7 @@
         <meta name="email" content="stackteam.official@gmail.com" />
         <meta name="website" content="https://robochain.info/" />
         <meta name="Version" content="v3.0.0" />
+        <meta  property="twitter:image" content="asset('assets/images/social/3.jpg') }}" />
         <!-- Favicon -->
         <link rel="icon" type="image/png" sizes="56x56" href="https://stackteam.org/assets/images/fav-icon/icon.png">
         <!-- Bootstrap -->

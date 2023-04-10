@@ -9,8 +9,6 @@ use Illuminate\Support\Facades\Lang;
 class CommentController extends Controller
 {
     public function store(Request $request) {
-        
-        print_r($request->all());
 
         if (Comment::create([
             'fullname' => $request->input('fullname'),

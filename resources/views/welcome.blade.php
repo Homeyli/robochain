@@ -11,6 +11,7 @@
         <meta name="email" content="stackteam.official@gmail.com" />
         <meta name="website" content="https://robochain.info/" />
         <meta name="Version" content="v3.0.0" />
+        <meta  property="twitter:image" content="asset('assets/images/social/3.jpg') }}" />
         <!-- Favicon -->
         <link rel="icon" type="image/png" sizes="56x56" href="https://stackteam.org/assets/images/fav-icon/icon.png">
         <!-- Bootstrap -->
@@ -133,7 +134,6 @@
                 $(".send").click(function(event) {
                     event.preventDefault();
                 
-        
                     // get Data
                     var fullname = $('#fullname').val();
                     var mobile = $('#mobile').val();
@@ -146,8 +146,11 @@
                         data: { 'fullname' : fullname,'mobile' : mobile,'comment' : comment},
                         method: "POST",
                         success: function(data){
-                            //$('.message').html(data.result);
-                            alert (data);
+                            $('#send-message').html(data['message']);
+
+                            $('#fullname').val("");
+                            $('#mobile').val("");
+                            $('#comment').val("");
                         }
                     });
 

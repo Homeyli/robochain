@@ -21,8 +21,8 @@
                                 <label class="form-label">شماره موبایل <span class="text-danger">*</span></label>
                                 <div class="form-icon position-relative">
                                     <i data-feather="phone" class="fea icon-sm icons"></i>
-                                    <input name="mobile" id="mobile" type="number" class="form-control ps-5"
-                                        placeholder="09120186223">
+                                    <input name="mobile" id="mobile" type="text" class="form-control ps-5"
+                                        placeholder="">
                                 </div>
                             </div>
                         </div>
@@ -41,6 +41,7 @@
                     <div class="row">
                         <div class="col-sm-12 text-center">
                             <div class="d-grid">
+                                <p id="send-message"></p>
                                 <input type="submit" name="send" class="send submitBnt btn btn-primary"
                                     value="ارسال پیام همکاری">
                                 <div id="simple-msg"></div>

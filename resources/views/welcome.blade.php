@@ -145,8 +145,11 @@
                         data: { 'fullname' : fullname,'mobile' : mobile,'comment' : comment},
                         method: "POST",
                         success: function(data){
-                            //$('.message').html(data.result);
-                            console.log (data);
+                            $('#send-message').html(data['message']);
+
+                            $('#fullname').val("");
+                            $('#mobile').val("");
+                            $('#comment').val("");
                         }
                     });
 

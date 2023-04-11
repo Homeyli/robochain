@@ -38,7 +38,7 @@
                                 </div>
                                 <div class="content overflow-hidden d-block">
                                     <h6 class="fw-bold mb-0">تماس مستقیم</h6>
-                                    <a href="tel:+989120186223" class="text-primary">+98 912 0186 223</a>
+                                    <a href="tel:+989120186223" class="text-primary">0912-018-62-23</a>
                                 </div>  
                             </div>
                         </div>

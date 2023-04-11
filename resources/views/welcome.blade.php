@@ -183,7 +183,7 @@
                     console.log("name: " + fullname + " phone: " + mobile + " comment: " + comment);
                     
                     $.ajax({
-                        url:"{{ route('store.comment') }}",
+                        url:"https://robochain.info/api/store/comment",
                         data: { 'fullname' : fullname,'mobile' : mobile,'comment' : comment},
                         method: "POST",
                         success: function(data){

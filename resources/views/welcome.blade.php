@@ -180,7 +180,7 @@
                     var mobile = $('#mobile-' + pos).val();
                     var comment = $('#comment-' + pos).val();
         
-                    //console.log("name: " + fullname + " phone: " + mobile + " comment: " + comment);
+                    console.log("name: " + fullname + " phone: " + mobile + " comment: " + comment);
                     
                     $.ajax({
                         url:"{{ route('store.comment') }}",

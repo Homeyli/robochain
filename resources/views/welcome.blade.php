@@ -3,14 +3,55 @@
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
     <head>
         <meta charset="utf-8" />
-        <title>روبوچین - ربات تریدر ارزهای دیجیتال - سرویسی از استک تیم</title>
+        <title>{{ __('landing.title') }}</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="description" content="روبوچین به شما کمک میکنه که استراتژی خودتون رو تبدیل به ربات تریدر اتوماتیک کنید" />
-        <meta name="keywords" content="ربات ارز های دیجیتال, ربات تریدر,ربات پایتون, ربات معامله گر, روبوچین" />
-        <meta name="author" content="Stackteam" />
+        <meta name="description" content="{{ __('landing.description') }}" />
+        <meta name="keywords" content="{{ __('landing.keywords') }}" />
+        <meta name="author" content="{{ __('landing.author') }}" />
         <meta name="email" content="stackteam.official@gmail.com" />
         <meta name="website" content="https://robochain.info/" />
         <meta name="Version" content="v3.0.0" />
+
+        <meta  property="og:title" content="{{ __('landing.title') }}" />
+        <meta  property="og:see_also" content="http://stackteam.org/fa/" />
+
+        <meta  property="og:locale" content="fa_IR" />
+
+        <meta  property="og:type" content="website" />
+
+        <meta  property="og:description" content="{{ __('landing.description') }}" />
+
+        <meta  property="og:url" content="http://robochain.info/" />
+
+        <meta  property="og:site_name" content="{{ __('landing.name') }}" />
+
+        <meta  property="og:image" content="{{ asset('assets/images/banner.png') }}" />
+
+        <meta  property="og:image:secure_url" content="{{ asset('assets/images/banner.png') }}" />
+
+        <meta  property="og:image:width" content="360" />
+
+        <meta  property="og:image:height" content="360" />
+
+        <meta  property="og:image:alt" content="استک تیم | خدمات برنامه نویسی انواع نرم افزار ها" />
+
+        <meta  property="twitter:card" content="summary_large_image" />
+
+        <meta  property="twitter:description" content="استک‌تیم اینجاست که استارتاپ و ایده ناب شما رو تبدیل به واقعیتی به رنگ یک اپلیکیشن و وبسایت حرفه ای کنه، ما خدمات متنوعی را در زمینه تولید و توسعه انواع نرم افزار ها با یک شیوه نوین همکاری به شما ارائه میدیم" />
+
+        <meta  property="twitter:site" content="{{ __('landing.name') }} سرویسی از {{ __('landing.author') }}" />
+
+        <meta  property="twitter:domain" content="robochain.org" />
+
+        <meta  property="twitter:url" content="http://robochain.org/" />
+
+        <meta  property="twitter:creator" content="@https://twitter.com/Stackteam_org" />
+
+        <meta  property="twitter:image" content="{{ asset('assets/images/banner.png') }}" />
+
+        <meta name="robots" content="follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large" />
+
+
         <!-- Favicon -->
         <link rel="icon" type="image/png" sizes="56x56" href="https://stackteam.org/assets/images/fav-icon/icon.png">
         <!-- Bootstrap -->
@@ -35,7 +76,7 @@
         <header id="topnav" class="defaultscroll sticky">
             <div class="container">                 
                 <div class="buy-button">
-                    <a href="https://1.envato.market/4n73n" target="_blank" class="btn btn-outline-primary rounded">{{ __('landing.sale') }}</a>
+                    <a href="tel:+989120186223" class="btn btn-outline-primary rounded">{{ __('landing.sale') }}</a>
                 </div><!--end login button-->
                 <!-- End Logo container-->
                 <div class="menu-extras">
@@ -63,7 +104,7 @@
                                             <i data-feather="phone" class="fea icon-m-md text-dark me-3"></i>
                                         </div>
                                         <div class="content overflow-hidden d-block">
-                                            <h6 class="fw-bold mb-0">Robochain.info | روبوچین</h6>
+                                            <h6 class="fw-bold mb-0">Robochain.info | روبوچین </h6>
                                             <a href="tel:+989120186223" class="text-primary">09120186223</a>
                                         </div>  
                                     </div>
@@ -88,7 +129,7 @@
                 <div class="row align-items-center">
                     <div class="col-sm-6">
                         <div class="text-sm-start">
-                            <p class="mb-0">© <script>document.write(new Date().getFullYear())</script> روبورچین | برنامه نویسی شده با <i class="mdi mdi-heart text-danger"></i> توسط شرکت <a href="http://stackteam.org/" target="_blank" class="text-reset">Stackteam</a>.</p>
+                            <p class="mb-0">© <script>document.write(new Date().getFullYear())</script> روبورچین | برنامه نویسی شده با <i class="mdi mdi-heart text-danger"></i> توسط شرکت <a href="http://stackteam.org/fa/" target="_blank" class="text-reset">استک تیم</a></p>
                         </div>
                     </div><!--end col-->
 
@@ -133,23 +174,24 @@
                 $(".send").click(function(event) {
                     event.preventDefault();
                 
-                    // get Data
-                    var fullname = $('#fullname').val();
-                    var mobile = $('#mobile').val();
-                    var comment = $('#comment').val();
+                    var pos = $(this).attr('pos');
+                    // get Data;
+                    var fullname = $('#fullname-' + pos).val();
+                    var mobile = $('#mobile-' + pos).val();
+                    var comment = $('#comment-' + pos).val();
         
-                    console.log("name: " + fullname + " phone: " + mobile + " comment: " + comment);
+                    //console.log("name: " + fullname + " phone: " + mobile + " comment: " + comment);
                     
                     $.ajax({
                         url:"{{ route('store.comment') }}",
                         data: { 'fullname' : fullname,'mobile' : mobile,'comment' : comment},
                         method: "POST",
                         success: function(data){
-                            $('#send-message').html(data['message']);
+                            $('#send-message-' + pos).html(data['message']);
 
-                            $('#fullname').val("");
-                            $('#mobile').val("");
-                            $('#comment').val("");
+                            $('#fullname-' + pos).val("");
+                            $('#mobile-' + pos).val("");
+                            $('#comment-' + pos).val("");
                         }
                     });
 

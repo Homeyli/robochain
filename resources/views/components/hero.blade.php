@@ -10,7 +10,7 @@
                     <h1 class="heading mb-3">ایجاد ربات های تریدر ارز دیجیتال<span class="text-primary typewrite" data-period="2000" data-type='[ "اسپات", "مارجین", "فیوچرز", "و در تمام صرافی های معتبر جهان"]'> </h1>
                     <p class="para-desc text-muted" style="text-align: justify">{{ __('landing.desc') }}</p>
                     <div class="mt-4">
-                        <a href="javascript:void(0)" class="btn btn-outline-primary rounded"><i class="feather feather-phone"></i>همین الان تماس بگیرید</a>
+                        <a href="tel:+989120186223" class="btn btn-outline-primary rounded">همین الان تماس بگیرید</a>
                     </div>
                 </div>
             </div><!--end col-->

@@ -11,7 +11,7 @@
         </div><!--end row-->
 
         <div class="row align-items-center">
-            <x-contact-form></x-contact-form>
+            <x-contact-form pos="bottom"></x-contact-form>
             <div class="col-lg-7 col-md-6 mt-4 pt-2 order-1 order-md-2">
                 <div class="title-heading ms-lg-4">
                     <h4 class="mb-4" data-aos="fade-up" data-aos-duration="1000">ارتباط با ما</h4>

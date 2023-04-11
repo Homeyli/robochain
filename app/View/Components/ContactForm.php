@@ -11,9 +11,12 @@ class ContactForm extends Component
      *
      * @return void
      */
-    public function __construct()
+
+    public $pos = null;
+    
+    public function __construct($pos='top')
     {
-        //
+        $this->pos = $pos;
     }
 
     /**

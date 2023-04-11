@@ -3,14 +3,14 @@
         <div class="card-body">
             <div class="custom-form bg-white">
                 <div id="message"></div>
-                <form method="post" action="php/contact.php" name="contact-form" id="contact-form">
+                <form method="post" action="{{ route('store.comment') }}" name="contact-form" id="contact-form">
                     <div class="row">
                         <div class="col-lg-6">
                             <div class="mb-3">
                                 <label class="form-label">نام <span class="text-danger">*</span></label>
                                 <div class="form-icon position-relative">
                                     <i data-feather="user" class="fea icon-sm icons"></i>
-                                    <input name="fullname" id="fullname" type="text" class="form-control ps-5"
+                                    <input name="fullname-{{ $pos }}" id="fullname-{{ $pos }}" type="text" class="form-control ps-5"
                                         placeholder="مهدی">
                                 </div>
                             </div>
@@ -21,7 +21,7 @@
                                 <label class="form-label">شماره موبایل <span class="text-danger">*</span></label>
                                 <div class="form-icon position-relative">
                                     <i data-feather="phone" class="fea icon-sm icons"></i>
-                                    <input name="mobile" id="mobile" type="text" class="form-control ps-5"
+                                    <input name="mobile-{{ $pos }}" id="mobile-{{ $pos }}" type="text" class="form-control ps-5"
                                         placeholder="">
                                 </div>
                             </div>
@@ -32,7 +32,7 @@
                                 <label class="form-label">متن پیام</label>
                                 <div class="form-icon position-relative">
                                     <i data-feather="message-circle" class="fea icon-sm icons"></i>
-                                    <textarea name="comments" id="comment" rows="4" class="form-control ps-5" placeholder="متن پیام شما..."></textarea>
+                                    <textarea name="comment-{{ $pos }}" id="comment-{{ $pos }}" rows="4" class="form-control ps-5" placeholder="متن پیام شما..."></textarea>
                                 </div>
                             </div>
                         </div>
@@ -41,8 +41,8 @@
                     <div class="row">
                         <div class="col-sm-12 text-center">
                             <div class="d-grid">
-                                <p id="send-message"></p>
-                                <input type="submit" name="send" class="send submitBnt btn btn-primary"
+                                <p id="send-message-{{ $pos }}"></p>
+                                <input type="submit" name="send" pos="{{ $pos }}" class="send submitBnt btn btn-primary"
                                     value="ارسال پیام همکاری">
                                 <div id="simple-msg"></div>
                             </div>

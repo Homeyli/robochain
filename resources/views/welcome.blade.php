@@ -33,11 +33,11 @@
 
         <meta  property="og:image:height" content="360" />
 
-        <meta  property="og:image:alt" content="استک تیم | خدمات برنامه نویسی انواع نرم افزار ها" />
+        <meta  property="og:image:alt" content="{{ __('landing.title') }}" />
 
         <meta  property="twitter:card" content="summary_large_image" />
 
-        <meta  property="twitter:description" content="استک‌تیم اینجاست که استارتاپ و ایده ناب شما رو تبدیل به واقعیتی به رنگ یک اپلیکیشن و وبسایت حرفه ای کنه، ما خدمات متنوعی را در زمینه تولید و توسعه انواع نرم افزار ها با یک شیوه نوین همکاری به شما ارائه میدیم" />
+        <meta  property="twitter:description" content="{{ __('landing.description') }}" />
 
         <meta  property="twitter:site" content="{{ __('landing.name') }} سرویسی از {{ __('landing.author') }}" />
 

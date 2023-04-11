@@ -151,10 +151,14 @@
                             $('#fullname').val("");
                             $('#mobile').val("");
                             $('#comment').val("");
+                        }, 
+                        error: function(data){
+
+                             alert('لطفا اطلاعات خود را به درستی وارد کنید');
+                            // $('#send-message').html(data['message']);
+
                         }
                     });
-
-
                 });
             });
         </script>

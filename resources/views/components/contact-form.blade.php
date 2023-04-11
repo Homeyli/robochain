@@ -60,31 +60,4 @@
 <!--end col-->
 
 
-<script>
-    $(document).ready(function() {
-        $("#submit").click(function(event) {
-            event.preventDefault();
-            event.stopPropagation();
-            // alert('okkkkk');
 
-            // get Data
-            var name = $('#name').val();
-            var phone = $('#phone').val();
-            var comments = $('#comments').val();
-
-            console.log("name: " + name + " phone: " + phone + " comments: " + comments);
-            
-            // $.ajax({
-            //     url: {{route('comments')}},
-            //     type: 'POST',
-            //     data: {'name': name, 'phone': phone, 'comments': comments},
-            //     success: function(response) {
-            //         alert(response.status);
-            //     },
-            //     error: function() {
-            //         alert("error");
-            //     }
-            // });
-        });
-    });
-</script>

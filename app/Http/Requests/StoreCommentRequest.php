@@ -24,8 +24,9 @@ class StoreCommentRequest extends FormRequest
     public function rules()
     {
         return [
-            'fullname' => ['required'],
-            'mobile' => ['required', 'integer'],
+
+            'fullname' => ['required','email' => 'unique:App\Models\Comment,mobile'],
+            'mobile' => ['required'],
             'comment' => ['required'],
         ];
     }

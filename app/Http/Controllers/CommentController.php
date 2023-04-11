@@ -3,7 +3,6 @@
 namespace App\Http\Controllers;
 
 use App\Http\Requests\StoreCommentRequest;
-use Illuminate\Http\Request;
 use App\Models\Comment;
 use Illuminate\Support\Facades\Lang;
 

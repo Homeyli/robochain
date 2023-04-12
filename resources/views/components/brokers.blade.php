@@ -3,8 +3,8 @@
         <div class="row justify-content-center">
             <div class="col-12 text-center">
                 <div class="section-title mb-4 pb-2">
-                    <h4 class="title mb-4">ربات برای تمامی صرافی های معتبر جهان</h4>
-                    <p class="text-muted para-desc mx-auto mb-0">ما در <span class="text-primary fw-bold">روبوچین</span> تمام صرافی های معتبر جهان رو ساپورت میکنیم</p>
+                    <h4 class="title mb-4">@lang('broker.robotForAllReputableExchangesInTheWorld')</h4>
+                    <p class="text-muted para-desc mx-auto mb-0">@lang('broker.we') <span class="text-primary fw-bold">@lang('broker.robochain')</span> @lang('broker.weSupportAllReputableExchangesInTheWorld')</p>
                 </div>
             </div><!--end col-->
         </div><!--end row-->

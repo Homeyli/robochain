@@ -104,8 +104,8 @@
                                             <i data-feather="phone" class="fea icon-m-md text-dark me-3"></i>
                                         </div>
                                         <div class="content overflow-hidden d-block">
-                                            <h6 class="fw-bold mb-0">Robochain.info | روبوچین </h6>
-                                            <a href="tel:+989120186223" class="text-primary">09120186223</a>
+                                            <h6 class="fw-bold mb-0">@lang('welcome.headername')</h6>
+                                            <a href="tel:+989120186223" class="text-primary">@lang('welcome.headerphone')</a>
                                         </div>  
                                     </div>
                                 </div>
@@ -129,7 +129,7 @@
                 <div class="row align-items-center">
                     <div class="col-sm-6">
                         <div class="text-sm-start">
-                            <p class="mb-0">© <script>document.write(new Date().getFullYear())</script> روبورچین | برنامه نویسی شده با <i class="mdi mdi-heart text-danger"></i> توسط شرکت <a href="http://stackteam.org/fa/" target="_blank" class="text-reset">استک تیم</a></p>
+                            <p class="mb-0">© <script>document.write(new Date().getFullYear())</script>@lang('welcome.footerRobochin')<i class="mdi mdi-heart text-danger"></i>@lang('welcome.footerCompany')<a href="http://stackteam.org/fa/" target="_blank" class="text-reset">@lang('welcome.footerTeamStack')</a></p>
                         </div>
                     </div><!--end col-->
 

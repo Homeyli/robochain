@@ -7,7 +7,7 @@
                     <div class="row">
                         <div class="col-lg-6">
                             <div class="mb-3">
-                                <label class="form-label">نام <span class="text-danger">*</span></label>
+                                <label class="form-label"> @lang('contactForm.name') <span class="text-danger">*</span></label>
                                 <div class="form-icon position-relative">
                                     <i data-feather="user" class="fea icon-sm icons"></i>
                                     <input name="fullname-{{ $pos }}" id="fullname-{{ $pos }}" type="text" class="form-control ps-5"
@@ -18,7 +18,7 @@
                         <!--end col-->
                         <div class="col-lg-6">
                             <div class="mb-3">
-                                <label class="form-label">شماره موبایل <span class="text-danger">*</span></label>
+                                <label class="form-label">@lang('contactForm.phoneNumber')<span class="text-danger">*</span></label>
                                 <div class="form-icon position-relative">
                                     <i data-feather="phone" class="fea icon-sm icons"></i>
                                     <input name="mobile-{{ $pos }}" id="mobile-{{ $pos }}" type="text" class="form-control ps-5"
@@ -29,7 +29,7 @@
                         <!--end col-->
                         <div class="col-lg-12">
                             <div class="mb-3">
-                                <label class="form-label">متن پیام</label>
+                                <label class="form-label">@lang('contactForm.messageText')</label>
                                 <div class="form-icon position-relative">
                                     <i data-feather="message-circle" class="fea icon-sm icons"></i>
                                     <textarea name="comment-{{ $pos }}" id="comment-{{ $pos }}" rows="4" class="form-control ps-5" placeholder="متن پیام شما..."></textarea>
